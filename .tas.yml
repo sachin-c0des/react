@@ -14,9 +14,6 @@ preMerge:
 preRun:
   command:
     - yarn install --frozen-lockfile
-postRun:
-  command:
-    - node --version
 configFile: scripts/jest/config.source-www.js
 nodeVersion: 14.17.6
 version: 1.0.0
